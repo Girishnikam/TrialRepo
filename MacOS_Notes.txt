@@ -1,0 +1,90 @@
+File management on Mac OS and Windows OS share some similarities, but there are also some differences in the way they handle files and folders. Here are some key differences:
+
+Finder vs. File Explorer: On a Mac, you use Finder to navigate through files and folders, whereas on Windows, you use File Explorer. Both applications have similar features, but their interfaces and menus are different.
+
+Drag and Drop: Both Mac OS and Windows OS allow you to drag and drop files from one location to another, but the way you do this is slightly different. On a Mac, you can drag and drop files between folders and applications by clicking and holding the mouse button while moving the file. On Windows, you typically need to click and hold the right mouse button to drag files.
+
+Keyboard Shortcuts: Mac OS and Windows OS have different keyboard shortcuts for file management tasks. For example, on a Mac, you use Command + C to copy files, whereas on Windows, you use Ctrl + C. Similarly, on a Mac, you use Command + Delete to move files to the Trash, whereas on Windows, you use Delete to delete files permanently.
+
+File Extensions: Windows OS is more reliant on file extensions to identify file types, whereas Mac OS uses a combination of file extensions and file metadata. For example, on a Windows computer, a file with the extension ".docx" is automatically associated with Microsoft Word, whereas on a Mac, the file's metadata is used to identify it as a Word document.
+
+Time Machine vs. File History: Mac OS has a built-in backup tool called Time Machine, which allows you to back up your files and restore them in case of data loss. On Windows, a similar tool called File History is available, which allows you to automatically back up files to an external hard drive.
+
+Overall, while the basic concepts of file management are similar across Mac OS and Windows OS, there are some differences in the way the two operating systems handle files and folders. These differences may take some time to get used to if you are used to working on one operating system and switch to the other.
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+By default, each storage device, or disk, consists of one Apple File System (APFS)
+container. Each container may have multiple volumes. Free space is shared
+between volumes in a container. The default APFS container consists of five
+volumes, the first three of which are hidden from the user.
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The default APFS container on a Mac consists of one or more volumes, which are used to organize and store files and data. Each container can have multiple volumes, and free space is shared between all volumes within the same container.
+
+The default APFS container on a Mac typically includes five volumes, but only the first two are visible to the user by default. These volumes are:
+
+Macintosh HD: This is the main volume of the APFS container and is where the Mac OS is installed. This volume typically takes up most of the space on the container.
+
+Macintosh HD - Data: This volume is used to store user data, such as documents, photos, and music files. By separating user data from system files, it makes it easier to manage and back up your files.
+
+Preboot: This is a hidden volume that is used by the system to store files needed for the boot process.
+
+Recovery: This is a hidden volume that contains a copy of the Mac OS installer and recovery tools, which can be used to repair or reinstall the operating system in case of issues.
+
+VM: This is a hidden volume that is used by the system to store virtual memory files, which are used when the system runs out of physical memory.
+
+The first two volumes, Macintosh HD and Macintosh HD - Data, are the ones that users typically interact with on a daily basis. The other three volumes are hidden from view and are used by the system for various purposes.
+
+It is possible to create additional volumes within the same container if you need to organize your files in a specific way. For example, you might create a separate volume for your Time Machine backups or for storing large media files. However, it's important to note that all volumes within the same container share the same pool of free space, so creating too many volumes could lead to fragmentation and reduced performance.
+
+
+
+
+
+
+
+-------------------------------------------Scheduling--------------------------------------------------------
+
+The macOS operating system uses a scheduling algorithm to manage the allocation of CPU resources to running processes. The scheduler determines which processes should be given priority and how much CPU time they should be allocated, based on a number of factors such as process priority, process type, and system load.
+
+The scheduler is responsible for ensuring that the system is responsive and that critical tasks are completed in a timely manner. For example, it might prioritize a video editing app that requires a lot of CPU resources over a web browser that is only displaying a static webpage. This helps to ensure that the user's experience is smooth and that tasks are completed efficiently.
+
+The scheduling algorithm used by macOS is called the "round-robin" algorithm, which is a type of time-sharing system. The round-robin algorithm assigns a fixed time slice to each process and switches between them in a circular order. This ensures that each process is given a fair share of the CPU's resources and that no process is monopolizing the CPU for too long.
+
+Overall, scheduling is an important aspect of CPU management on macOS, as it helps to ensure that the system is responsive and that critical tasks are completed in a timely manner. By managing the allocation of CPU resources, the scheduler helps to optimize performance and ensure a smooth user experience.
+
+
+Activity Monitor: The Activity Monitor app is built into macOS and provides real-time information about CPU usage, memory usage, disk activity, and other system statistics. You can use it to monitor which apps and processes are using the most CPU resources.
+
+
+
+------------------------Power management------------------------
+
+Yes, that's correct. macOS has power management features that allow it to adjust CPU performance and energy usage based on the current state of the system. These features are designed to optimize performance and conserve energy, depending on the user's needs and the state of the system.
+
+One example of power management on macOS is the "Energy Saver" preferences pane, which allows users to configure various settings to help conserve energy. For example, users can set the display to turn off after a certain period of inactivity or enable "Power Nap" mode, which allows the system to perform certain tasks (such as backups) while in sleep mode.
+
+In addition to these user-configurable settings, macOS also has built-in power management features that automatically adjust CPU performance and energy usage based on the current state of the system. For example, if the system is running on battery power, macOS will reduce the CPU frequency and limit the number of active cores to conserve energy. This helps to extend the battery life of portable devices and reduce energy usage on desktop systems.
+
+Overall, power management is an important aspect of CPU management on macOS, as it helps to optimize performance and conserve energy. By adjusting CPU performance and energy usage based on the current state of the system, macOS ensures that users have a smooth and responsive experience while also minimizing energy usage and extending battery life.
+
+
+
+
+
+
+
+
+
+
+
+
